@@ -3,6 +3,9 @@
         "browser": true
     },
     "extends": ["angular", "eslint:recommended"],
+    "globals": {
+      "require": true
+    },
     "rules": {
         "indent": [
             "error",
