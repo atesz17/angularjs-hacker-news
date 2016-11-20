@@ -1,11 +1,22 @@
 <!DOCTYPE html>
-<html lang="en" ng-app="hackerNewsApp">
+<html lang="en" ng-app="hnApp">
   <head>
-    <title></title>
+    <title>AngularJS Hacker News</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" type="text/css" href="./styles/style.css">
   </head>
   <body>
+    <news-container></news-container>
+
+
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+
+    <script type="text/javascript" src="./app/app.js"></script>
+
+    <script type="text/javascript" src="./app/components/newsContainer/newsContainer.component.js"></script>
+    <script type="text/javascript" src="./app/components/newsHeader/newsHeader.component.js"></script>
   </body>
 </html>

@@ -1,1 +1,1 @@
-angular.module('hackerNewsApp', []);
+angular.module('hnApp', []);
